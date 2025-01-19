@@ -53,7 +53,7 @@ spec:
     spec:
       containers:
         - name: fakeshop
-          image: rjgf/fake-shop:v1
+          image: rjgf/fake-shop:v2
           ports:
             - containerPort: 5000
           env:
